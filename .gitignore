@@ -1,0 +1,44 @@
+# General
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.temp
+
+# Node - for Azure Function App
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+import*.tf
+
+# GitHub Actions
+# Generally, you don't need to ignore workflows themselves
+# But you might want to ignore logs or local testing artifacts
+# .github/workflows/*.log
+
+# Hugo - Static Site Generator
+/public/
+/resources/_gen/
+hugo_stats.json
+/node_modules/ # If Hugo themes use Node.js
+
+# IDE and Editor directories
+.vscode/
+.idea/
+*.swp
+*~
