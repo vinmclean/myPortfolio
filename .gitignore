@@ -38,7 +38,7 @@ hugo_stats.json
 /node_modules/ # If Hugo themes use Node.js
 
 # IDE and Editor directories
-.vscode/
+
 .idea/
 *.swp
 *~
