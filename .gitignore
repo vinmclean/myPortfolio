@@ -4,6 +4,7 @@ Thumbs.db
 *.log
 *.tmp
 *.temp
+set_azure_env.sh
 
 # Node - for Azure Function App
 node_modules/
