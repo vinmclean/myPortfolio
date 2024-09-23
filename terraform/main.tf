@@ -44,6 +44,10 @@ resource "azurerm_linux_function_app" "function_app" {
       python_version = "3.11"
     }
   }
+
+  app_settings ={
+    "AzureCosmosDBConnectionString" = var.cosmosdb_connection_string
+  }
 }
 
 #Cosmos DB Account

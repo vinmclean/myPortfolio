@@ -10,3 +10,8 @@ variable "resource_name_suffix" {
   type        = string
   default     = "vmc" # Example default value, can be customized
 }
+
+variable "cosmosdb_connection_string" {
+  description = "Connection String of cosmos db."
+  type        = string
+}
