@@ -45,7 +45,7 @@ resource "azurerm_linux_function_app" "function_app" {
     }
   }
 
-  app_settings ={
+  app_settings = {
     "AzureCosmosDBConnectionString" = var.cosmosdb_connection_string
   }
 }
