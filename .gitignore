@@ -26,6 +26,7 @@ override.tf.json
 .terraformrc
 terraform.rc
 import*.tf
+backend_local.tf
 
 # GitHub Actions
 # Generally, you don't need to ignore workflows themselves
